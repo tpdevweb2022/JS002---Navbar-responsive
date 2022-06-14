@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="site_title">
+          <div class="site_title__name">
+            <a href="#">My Website</a>
+          </div>
+          <div class="site_title__burger">
+            <svg
+              class="hidden"
+              id="site_title__burger_close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="48"
+              height="48"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                fill="rgba(255,255,255,1)"
+              />
+            </svg>
+            <svg
+              id="site_title__burger_open"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="48"
+              height="48"
+            >
+              <path fill="none" d="M0 0h24v24H0z" />
+              <path
+                d="M3 4h18v2H3V4zm6 7h12v2H9v-2zm-6 7h18v2H3v-2z"
+                fill="rgba(255,255,255,1)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="nav_links mobile_hidden" id="nav_links">
+          <ul class="nav_links__content" id="nav_links__content">
+            <li class="nav_link"><a href="#">Home</a></li>
+            <li class="nav_link"><a href="#">About us</a></li>
+            <li class="nav_link"><a href="#">Services</a></li>
+            <li class="nav_link"><a href="#">Shop</a></li>
+            <li class="nav_link"><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script src="app.js"></script>
+  </body>
+</html>
